@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lottery</title>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/form.js"></script>
+        <script src="js/layout.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Lottery</h1>
+        </header>
+        <section class="pick-number">
+            <form action="javascript:submit();" method="post">
+                <div id="lottery_number"></div>
+                <button class="button-submit" type="submit">Buy</button>
+            </form>
+            <div id="buydialog" class="dialog">
+                <div class="dialog-content">
+                    <span class="close">&times;</span>
+                    <p id="buydiologinfo"></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p>© Produced by SHANG</p>
+                <p>
+                    Who is she?
+                    <a href="http://shang.csie.io">CLICK HERE!</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
